@@ -1,15 +1,18 @@
 print('Welcome to the random question chatbot!')
-name = input('What is your name?')
-age = input('How old are you?')
+name = input('What is your name? ')
+# name to be added into age line (simplicity!)
+age = input(f'Hello, {name}! How old are you? ')
+# no clue why we need it, but might as well do
 
 def menu():
     print('[1] Can bees fly?')
     # yes
-    print('[2] Best loyalist space marine chapter in Warhammer 40k?')
+    print('[2] Best loyalist space marine chapter (faction) in Warhammer 40k?')
     # salamanders!
     print('[3] Who let the dogs out?')
     # baha men
     print('[4] Exit.')
+    #fleeing!!!
 
 menu()
 option = int(input('Enter your option: '))
